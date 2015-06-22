@@ -71,14 +71,31 @@ __author__ = 'EasyShare25'
 #     quick_sort(array,0,len(array)-1)
 #     print array
 #aa
-sum=0
-i=1
-for i in range(1001):
-    if i%2==0:
-        sum+=i
-print sum
-
-
-
-
-
+# sum=0
+# i=1
+# for i in range(1001):
+#     if i%2==0:
+#         sum+=i
+# print sum
+#import requests
+# from os.path import dirname,abspath
+# from extract import extract,extract_all
+# import re
+# RE_CN=re.compile(ur'[\u4e00-\u9fa5]+')
+# PREFIX=dirname(abspath(_ file _))
+# with open("%s/down.bat"%PREFIX,"w")as down:
+#     for i in xrange(1,306):
+#         for url in("http://www.luoo.net/radio/radio%s/mp3.xml"%i,
+#                    'http://www.luoo.net/radio/radio%s/mp3player.xml'%i ):
+#             r=request.get(url)
+#             print url
+#             if r.status_code==200:
+#                 for path,name in zip(
+#                      extract_all('path="', '"', r.content),
+#                     extract_all('title="', '"', r.content)
+#                 ):
+#                     if RE_CN.match(name.decode('utf-8', 'ignore')):
+#                         down.write('wget %s -O "%s/%s.mp3"\n'%(
+#                            path,PREFIX,name.decode('utf-8',
+#                             "ignore").encode("gb18030","ignore")))
+#                 break
