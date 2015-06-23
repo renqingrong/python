@@ -99,3 +99,10 @@ __author__ = 'EasyShare25'
 #                            path,PREFIX,name.decode('utf-8',
 #                             "ignore").encode("gb18030","ignore")))
 #                 break
+
+import math
+for i in range(1,1000):
+    x=int(math.sqrt(i+100))
+    y=int(math.sqrt(i+168))
+    if x*x==(i+100)and y*y==(i+168):
+        print i
