@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 __author__ = 'EasyShare25'
 #sum=0
 
@@ -100,9 +102,36 @@ __author__ = 'EasyShare25'
 #                             "ignore").encode("gb18030","ignore")))
 #                 break
 
-import math
-for i in range(1,1000):
-    x=int(math.sqrt(i+100))
-    y=int(math.sqrt(i+168))
-    if x*x==(i+100)and y*y==(i+168):
-        print i
+# import math
+# for i in range(1,1000):
+#     x=int(math.sqrt(i+100))
+#     y=int(math.sqrt(i+168))
+#     if x*x==(i+100)and y*y==(i+168):
+#         print i
+
+
+# sum=0
+# for a in range(1,5):
+#     for b in range(1,5):
+#         for c in range(1,5):
+#             if a<>b and a<>c and b<>c:
+#                 print a*100+b*10+c
+#                 sum+=1
+# print sum
+
+# result=[8,19,6]
+# for i in range(0,3):
+#     #input=int(raw_input("please enter an integer:/n"))
+#     result.append(input)
+# result.sort()
+# print result
+# a=[1,2,3,4]
+# a.reverse()
+# print a
+
+# for i in range(1,10):#1-10
+#     for j in range(1,10):
+#         if j<=i:
+#             #print'{0}*{1}={2}'.format(i,j,i*j),
+#             print "%s*%s=%s"%(str(i),str(j),str(i*j))
+#             print
