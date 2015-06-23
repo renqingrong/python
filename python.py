@@ -135,3 +135,21 @@ __author__ = 'EasyShare25'
 #             #print'{0}*{1}={2}'.format(i,j,i*j),
 #             print "%s*%s=%s"%(str(i),str(j),str(i*j))
 #             print
+# import sys
+# for i in range(1,9):
+#     if i==1:
+#         sys.stdout.write('@@')
+#         sys.stdout.write('\n')
+#     else:
+#          for j in range(1,9):
+#              if j<=i:
+#                 sys.stdout.write("*"),
+#          print
+result=[]
+for x in range(1,10):
+    for y in range(0,10):
+        for z in range(0,10):
+            m=100*x+10*y+z
+            if m==x**3+y**3+z**3:
+                result.append(m)
+print result
