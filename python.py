@@ -79,17 +79,17 @@ __author__ = 'EasyShare25'
 #     if i%2==0:
 #         sum+=i
 # print sum
-#import requests
+# import requests
 # from os.path import dirname,abspath
 # from extract import extract,extract_all
 # import re
 # RE_CN=re.compile(ur'[\u4e00-\u9fa5]+')
-# PREFIX=dirname(abspath(_ file _))
+# PREFIX=dirname(abspath( _ file _ ))
 # with open("%s/down.bat"%PREFIX,"w")as down:
 #     for i in xrange(1,306):
 #         for url in("http://www.luoo.net/radio/radio%s/mp3.xml"%i,
 #                    'http://www.luoo.net/radio/radio%s/mp3player.xml'%i ):
-#             r=request.get(url)
+#             r=requests.get(url)
 #             print url
 #             if r.status_code==200:
 #                 for path,name in zip(
@@ -145,11 +145,27 @@ __author__ = 'EasyShare25'
 #              if j<=i:
 #                 sys.stdout.write("*"),
 #          print
-result=[]
-for x in range(1,10):
-    for y in range(0,10):
-        for z in range(0,10):
-            m=100*x+10*y+z
-            if m==x**3+y**3+z**3:
-                result.append(m)
-print result
+# result=[]
+# for x in range(1,10):
+#     for y in range(0,10):
+#         for z in range(0,10):
+#             m=100*x+10*y+z
+#             if m==x**3+y**3+z**3:
+#                 result.append(m)
+# print result
+# print "Hello World!"
+# print "Hello Again!"
+# print "I like typing this."
+# print "This is fun."
+# print "Yay!Printing."
+# print "I'd much rather you 'not'."
+# print 'I "said" do not touch this.'
+# print"I like you very much !"
+# print'"xiao de se" is interesting'
+# print "What is wrong with you and 'How are you'"
+# print"I like eat"
+# sum=0
+# for i in range(1,101):
+#     sum=sum+i
+#     i=i+1
+# print sum
